@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+<link rel="stylesheet" href="Style.css">
+   
+</head>
+
+<body style="background-color:powderblue;" class="center-page">
+
+<div class="container">
+    <h2 style="color:brown">Register--</h2>
+     <label for="username">User Name:-</label>
+    <input type="text" id="username" placeholder="Create Username"><br>
+    <label for="password">Password:-</label>
+    <input type="password" id="password" placeholder="Create Password of 6 digits"><br>
+   <label for="role">Register type:-</label>
+    <select id="role">
+        <option value="">Select Role</option>
+        <option value="teacher">Teacher</option>
+        <option value="student">Student</option>
+    </select><br>
+
+    <button onclick="registerUser()">Register</button>
+</div> 
+<script src="Script.js"></script>
+</body>
+</html>
